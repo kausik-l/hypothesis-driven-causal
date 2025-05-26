@@ -8,9 +8,9 @@ import numpy as np
 import tempfile
 import os
 
-st.set_page_config(page_title="Hypothesis-Driven ATE Explorer", layout="wide")
+st.set_page_config(page_title="Hypothesis-Driven Causal Explanation", layout="wide")
 
-st.title("📊 Hypothesis-Driven ATE Explorer")
+st.title("Hypothesis-Driven Causal Explanation")
 
 # Upload CSV
 uploaded_file = st.file_uploader("Upload CSV dataset", type=["csv"])
