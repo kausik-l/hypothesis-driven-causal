@@ -13,8 +13,8 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from mlxtend.regressor import StackingRegressor
 
-st.set_page_config(page_title="G-Computation Hypothesis Explorer", layout="wide")
-st.title("🔍 Hypothesis-Driven Explanation using G-Computation")
+st.set_page_config(page_title="Hypothesis Driven Explanation System", layout="wide")
+st.title("Hypothesis-Driven Explanation System")
 
 uploaded_file = st.file_uploader("Upload CSV dataset", type=["csv"])
 
